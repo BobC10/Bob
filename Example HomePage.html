@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8" />
+<title>Assignment Project</title>
+<style>
+:first-child {color:#F00}
+li:hover {color:#FF0}
+.squ_out {list-style-type:square; color:#3CF;}
+.cir_in {list-style-type:circle; color:#F93;}
+ body {
+    margin: 0;
+  }
+.menu ul{
+    list-style:none;
+margin:0px;
+padding:0px;
+width:150px;
+background-color:darkgreen;
+text-shadow:2px 2px 2px red;
+border-radius:10px;
+display:inline-block;
+  }
+.menu .sub{
+  position:absolute;
+top:38px;
+background-color:darkblue;
+box-shadow:10px 10px 5px grey;
+}
+.menu .sub a:hover{
+background-color:lightblue;
+}
+.menu .sub li{
+  overflow:hidden;
+height:0px;
+transition:height:500ms;
+}
+.menu ul li:hover .sub li{
+  height:40px;
+}
+</style>
+</head>
+<body bgcolor="#F5F5DC" >
+Here is my first attempt at making a web page!!
+<br />
+<a href="https://12bcm775gmail.wordpress.com">This is a link to My home page!</a>
+<a href="mailto:marshal0071@gmail.com">My Email</a>
+<hr />
+<div align="right">
+<p><h3>This is a Client-side Web Site document. </h3></p>
+</div>
+<div align="center" >
+<img src="http://visitcolombo.com/images/post/53/1426034155.jpg" alt="Hong Kong Travel" width="50%" height="50%"/>
+</div>
+
+<table bgcolor="#ADFF2F" border="30%" width="50%" cellspacing="20%" cellpadding="10%" align="center">
+<caption> Catalog </caption>
+<h1 align="center">This is an Example web sites</h1>
+<br />
+<tr>
+<td>
+
+<h2> <a href="https://www.harborfieldssoccerclub.com/" target="reason">Soccer Club</a> </h2>
+<ol class="sub">
+<li><a href="">Real Madrid </a></li>
+<li><a href="">Manchester United </a></li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>
+<h2> <a href="https://www.ymca.int" target="reason">Fun Club</a> </h2>
+<ul class="cir_in">
+<li><a href="">Movie </a></li>
+<li><a href="">Music </a></li>
+<li><a href="">Sport </a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<h2> <a href="https://hobbyhelp.com/inspiration/list-of-hobbies/" target="reason">Hobbies</a> </h2>
+<ol class="sub">
+<li><a href=""> Guitar Playeing </a></li>
+<li><a href=""> Biking </a></li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>
+<h2> <a href="https://www.tripadvisor.com.hk/" target="reason">Touring Guide</a> </h2>
+<ul class="squ_out">
+<li><a href=""> Hong Kong </a></li>
+<li><a href=""> China </a></li>
+<li><a href=""> Marco </a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<h2> <a href="http://www.hkfep.com/about.asp" target="reason">Promotion</a> </h2>
+<ol>
+<li><a href=""> Environmental Protection </a></li>
+<li><a href=""> Health Care </a></li>
+</ol>
+</td>
+</tr>
+<th>
+<div align="center" WIDTH="50%" BORDER="50%" HEIGHT="50%">
+<iframe src="https://www.harborfieldssoccerclub.com/" "https://www.ymca.int" "https://hobbyhelp.com/inspiration/list-of-hobbies/" "https://www.tripadvisor.com.hk/" "http://www.hkfep.com/about.asp" name="reason"
+width="450" height="250" id="reason"> </iframe>
+</div>
+</th>
+</table>
+</body>
+</html>
